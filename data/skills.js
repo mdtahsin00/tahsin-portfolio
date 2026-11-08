@@ -1,0 +1,73 @@
+// One entry per row in the "What I do" section.
+// `tools` can be an empty array if you only want the summary text.
+export const skills = [
+  {
+    area: "Full-stack development",
+    summary: "Interfaces, APIs and databases, from first commit to deploy.",
+    tools: [
+      "Next.js",
+      "React",
+      "Vue.js",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "Tailwind CSS",
+      "Bootstrap",
+      "HTML5",
+      "CSS3",
+      "MongoDB",
+      "MySQL",
+      "C",
+      "C++",
+      "Git",
+    ],
+  },
+  {
+    area: "Cyber security & ethical hacking",
+    summary:
+      "Finding and fixing web vulnerabilities, from recon and testing to reporting bugs.",
+    tools: [
+      "Kali Linux",
+      "Burp Suite",
+      "Nmap",
+      "OSINT",
+      "Footprinting",
+      "SQL Injection",
+      "XSS",
+      "CSRF",
+      "LFI/RFI/RCE",
+      "Authentication Bypass",
+      "Session Hijacking",
+      "WordPress Security",
+      "Web Server Security",
+      "Penetration Testing",
+      "PortSwigger Labs",
+      "HackerOne",
+      "Bugcrowd",
+    ],
+  },
+  {
+    area: "SEO & digital marketing",
+    summary:
+      "Getting sites found on search, from keyword research to on-page and technical fixes.",
+    tools: [
+      "Semrush",
+      "Google Search Console",
+      "Google Analytics",
+      "Keyword Research",
+      "On-Page SEO",
+      "Technical SEO",
+      "Meta Tags",
+      "Sitemaps",
+      "Core Web Vitals",
+      "Link Building",
+      "Content Marketing",
+      "Social Media Marketing",
+    ],
+  },
+  {
+    area: "Graphic design",
+    summary: "Brand visuals, UI design and illustration.",
+    tools: ["Figma", "Photoshop", "Illustrator", "Adobe XD", "Canva"],
+  },
+];
